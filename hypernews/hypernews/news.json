@@ -1,0 +1,38 @@
+[
+    {
+        "created": "2020-02-22 16:40:00",
+        "text": "A new star appeared in the sky.",
+        "title": "A star is born",
+        "link": 9234732
+    },
+    {
+        "created": "2020-02-09 14:15:10",
+        "text": "Text of the news 1",
+        "title": "News 1",
+        "link": 1
+    },
+    {
+        "created": "2020-02-10 14:15:10",
+        "text": "Text of the news 2",
+        "title": "News 2",
+        "link": 2
+    },
+    {
+        "created": "2020-02-09 16:15:10",
+        "text": "Text of the news 3",
+        "title": "News 3",
+        "link": 3
+    },
+    {
+        "created": "2021-10-02 00:50:28",
+        "title": "a",
+        "text": "t2",
+        "link": 31084217
+    },
+    {
+        "created": "2021-10-02 00:55:31",
+        "title": "qq",
+        "text": "aa",
+        "link": 98931949
+    }
+]

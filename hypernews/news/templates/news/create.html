@@ -1,0 +1,15 @@
+<html>
+<body>
+    <form action="/news/create/" method="POST">
+        {% csrf_token %}
+        <div>title
+            <input type="text" name="title" required>
+        </div>
+        <div>text
+            <input type="text" name="text" required>
+        </div>
+        <input type="submit" value="Send">
+    </form>
+    <a href="/news/">news</a>
+</body>
+</html>

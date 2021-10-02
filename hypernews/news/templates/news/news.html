@@ -1,0 +1,20 @@
+<html>
+<body>
+    <h2>Hyper news</h2>
+    <form action="/news/" method="GET">
+        <div>Query
+            <input type="text" name="q">
+            <input type="submit" value="Send">
+        </div>
+    </form>
+    {% for date, articles in news_dict.items %}
+    <h4>{{date}}</h4>
+    <ul>
+        {% for article in articles %}
+        <li><a href="{{article.link}}">{{article.title}}</a></li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+    <a href="/news/create/">create</a>
+</body>
+</html>
